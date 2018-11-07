@@ -127,6 +127,42 @@ h6 {
 .ms-welcome__action.ms-Button--hero:hover .ms-Button-icon .ms-Icon {
     border: none;
 }
+#content-header {
+    background: #2a8dd4;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; 
+    overflow: hidden;
+    font-family: Arial;
+    padding-top: 25px;
+}
+
+#content-main {
+    background: #fff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto; 
+    font-family: Arial;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.padding-sm {
+    padding: 4px;
+}
+
+.normal-button {
+    width: 80px;
+    padding: 2px;
+}
 
 @media (min-width: 0) and (max-width: 350px) {
     .ms-welcome__features {
